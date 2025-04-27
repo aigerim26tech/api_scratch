@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "api/qa/cashwise/stepdefinitions",
-        dryRun = true,
+        dryRun = false,
         tags = "@regression",
         plugin = {"pretty", "html:target/apiReport.html", "json:target/cucumber-reports/cucumber.json"}
 //        "rerun:target/apiFailedTests.txt"}
