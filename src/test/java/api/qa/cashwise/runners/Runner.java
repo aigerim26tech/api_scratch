@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "api/qa/cashwise/stepdefinitions",
         dryRun = true,
         tags = "@regression",
-        plugin = {"pretty", "html:target/apiReport.html", "json:target/reports/cucumber.json"}
+        plugin = {"pretty", "html:target/apiReport.html", "json:target/cucumber-reports/cucumber.json"}
 //        "rerun:target/apiFailedTests.txt"}
 )
 public class Runner {
