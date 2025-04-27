@@ -4,7 +4,7 @@ Feature: Testing Clients End Points
   Scenario: Happy Path Create Clients (Client-Create Endpoint) --> POST
     Then User validates 'aigerimCompany', 'Java', 'Codewise' and 'aigerim.company22@gmail.com' from end-point
 
-    Scenario: Happy Path Check Client (Client-Check EndPoint) --> GET
+    Scenario: Happy Path Get Client
       Then User validates 'aigerimCompany', 'Java', 'Codewise' and 'aigerim.company22@gmail.com' from end-point Get
 
       Scenario: Happy Path Update Client(Client-Update EndPoint) --> PUT
